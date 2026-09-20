@@ -16,4 +16,30 @@ html {
   padding: 0;
   min-height: 100dvb;
   font-family: Outfit, sans-serif;
+  background-color: var(--slate300);
+}
+
+main {
+  min-height: 100dvb;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 35px;
+}
+.qr-code-img {
+  width: 300px;
+  height: 300px;
+  border-radius: 15px;
+}
+
+.card-container {
+  background-color: var(--white);
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 15px;
 }

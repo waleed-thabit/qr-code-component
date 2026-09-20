@@ -30,7 +30,7 @@ main {
 .qr-code-img {
   width: 300px;
   height: 300px;
-  border-radius: 15px;
+  border-radius: 14px;
 }
 
 .card-container {
@@ -41,5 +41,16 @@ main {
   justify-content: center;
   align-items: center;
   text-align: center;
-  border-radius: 15px;
+  border-radius: 14px;
+}
+
+.card-container h2 {
+  color: var(--slate900);
+  font-weight: 700;
+}
+.card-container p {
+  color: var(--slate500);
+  font-size: 15px;
+  font-weight: 400;
+  margin: 0 10px 15px;
 }
